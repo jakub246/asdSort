@@ -5,17 +5,19 @@
 using namespace std;
 
 void aRand(int A[], int n);
+void aRand(int A[], int n, int K);
 
 int main()
 {
-    int *A=new int[45000];
-    for(int i=0; i<45000; i++)
-        A[i]=i;
-    aRand(A, 100);
-    qSort(A, 45000);
-  //  for(int e:A)
-   //     cout<<e<<" ";
-   delete[] A;
+    int A[10];
+    aRand(A, 10, 5);
+    for(int e:A)
+        cout<<e<<" ";
+    cout<<endl;
+    countSort(A, 10, 5);
+    for(int e:A)
+        cout<<e<<" ";
+  // delete[] A;
 }
 
 void aRand(int A[], int n)
@@ -24,4 +26,12 @@ void aRand(int A[], int n)
 
     for(int i=0; i<n; i++)
         A[i] = rand();
+}
+
+void aRand(int A[], int n, int K)
+{
+    srand(time(nullptr));
+
+    for(int i=0; i<n; i++)
+        A[i] = rand()%K;
 }
