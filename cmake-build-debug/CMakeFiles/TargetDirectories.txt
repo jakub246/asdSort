@@ -1,0 +1,3 @@
+/home/jakub/CLionProjects/asdSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jakub/CLionProjects/asdSort/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jakub/CLionProjects/asdSort/cmake-build-debug/CMakeFiles/asdSort.dir

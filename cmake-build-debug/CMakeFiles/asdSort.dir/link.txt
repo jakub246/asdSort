@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/asdSort.dir/main.cpp.o  -o asdSort 
