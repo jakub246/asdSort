@@ -8,10 +8,11 @@ void aRand(int A[], int n);
 
 int main()
 {
-    int *A=new int[4500];
-    for(int i=0; i<4500; i++)
+    int *A=new int[45000];
+    for(int i=0; i<45000; i++)
         A[i]=i;
-    qSort(A, 4500);
+    aRand(A, 100);
+    qSort(A, 45000);
   //  for(int e:A)
    //     cout<<e<<" ";
    delete[] A;
@@ -19,7 +20,7 @@ int main()
 
 void aRand(int A[], int n)
 {
-    srand(time(NULL));
+    srand(time(nullptr));
 
     for(int i=0; i<n; i++)
         A[i] = rand();

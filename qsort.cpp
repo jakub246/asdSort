@@ -1,4 +1,4 @@
-#include "qsort.h"
+#include "sort.h"
 #include <algorithm>
 
 int parti(int A[], int n)
