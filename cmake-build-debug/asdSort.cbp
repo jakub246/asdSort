@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jakub/CLionProjects/asdSort/countsort.cpp">
+			<Option target="asdSort"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/asdSort/decimalRadixSort.cpp">
+			<Option target="asdSort"/>
+		</Unit>
 		<Unit filename="/home/jakub/CLionProjects/asdSort/main.cpp">
+			<Option target="asdSort"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/asdSort/qsort.cpp">
+			<Option target="asdSort"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/asdSort/sort.h">
 			<Option target="asdSort"/>
 		</Unit>
 		<Unit filename="/home/jakub/CLionProjects/asdSort/CMakeLists.txt">

@@ -9,12 +9,12 @@ void aRand(int A[], int n, int K);
 
 int main()
 {
-    int A[10];
-    aRand(A, 10, 5);
+    int A[20];
+    aRand(A, 20, 1000);
     for(int e:A)
         cout<<e<<" ";
     cout<<endl;
-    countSort(A, 10, 5);
+    decimalRadixSort(A, 20, 1000);
     for(int e:A)
         cout<<e<<" ";
   // delete[] A;

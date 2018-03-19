@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jakub/CLionProjects/asdSort/countsort.cpp
+sort.h
+/home/jakub/CLionProjects/asdSort/sort.h
+
+/home/jakub/CLionProjects/asdSort/decimalRadixSort.cpp
+sort.h
+/home/jakub/CLionProjects/asdSort/sort.h
+
+/home/jakub/CLionProjects/asdSort/main.cpp
+iostream
+-
+sort.h
+/home/jakub/CLionProjects/asdSort/sort.h
+cstdlib
+-
+ctime
+-
+
+/home/jakub/CLionProjects/asdSort/qsort.cpp
+sort.h
+/home/jakub/CLionProjects/asdSort/sort.h
+algorithm
+-
+
+/home/jakub/CLionProjects/asdSort/sort.h
+

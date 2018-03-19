@@ -123,6 +123,60 @@ asdSort/fast:
 	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/build
 .PHONY : asdSort/fast
 
+countsort.o: countsort.cpp.o
+
+.PHONY : countsort.o
+
+# target to build an object file
+countsort.cpp.o:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/countsort.cpp.o
+.PHONY : countsort.cpp.o
+
+countsort.i: countsort.cpp.i
+
+.PHONY : countsort.i
+
+# target to preprocess a source file
+countsort.cpp.i:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/countsort.cpp.i
+.PHONY : countsort.cpp.i
+
+countsort.s: countsort.cpp.s
+
+.PHONY : countsort.s
+
+# target to generate assembly for a file
+countsort.cpp.s:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/countsort.cpp.s
+.PHONY : countsort.cpp.s
+
+decimalRadixSort.o: decimalRadixSort.cpp.o
+
+.PHONY : decimalRadixSort.o
+
+# target to build an object file
+decimalRadixSort.cpp.o:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/decimalRadixSort.cpp.o
+.PHONY : decimalRadixSort.cpp.o
+
+decimalRadixSort.i: decimalRadixSort.cpp.i
+
+.PHONY : decimalRadixSort.i
+
+# target to preprocess a source file
+decimalRadixSort.cpp.i:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/decimalRadixSort.cpp.i
+.PHONY : decimalRadixSort.cpp.i
+
+decimalRadixSort.s: decimalRadixSort.cpp.s
+
+.PHONY : decimalRadixSort.s
+
+# target to generate assembly for a file
+decimalRadixSort.cpp.s:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/decimalRadixSort.cpp.s
+.PHONY : decimalRadixSort.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+qsort.o: qsort.cpp.o
+
+.PHONY : qsort.o
+
+# target to build an object file
+qsort.cpp.o:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/qsort.cpp.o
+.PHONY : qsort.cpp.o
+
+qsort.i: qsort.cpp.i
+
+.PHONY : qsort.i
+
+# target to preprocess a source file
+qsort.cpp.i:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/qsort.cpp.i
+.PHONY : qsort.cpp.i
+
+qsort.s: qsort.cpp.s
+
+.PHONY : qsort.s
+
+# target to generate assembly for a file
+qsort.cpp.s:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/qsort.cpp.s
+.PHONY : qsort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... asdSort"
+	@echo "... countsort.o"
+	@echo "... countsort.i"
+	@echo "... countsort.s"
+	@echo "... decimalRadixSort.o"
+	@echo "... decimalRadixSort.i"
+	@echo "... decimalRadixSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... qsort.o"
+	@echo "... qsort.i"
+	@echo "... qsort.s"
 .PHONY : help
 
 

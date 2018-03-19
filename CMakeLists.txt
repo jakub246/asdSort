@@ -3,4 +3,4 @@ project(asdSort)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(asdSort main.cpp sort.h qsort.cpp countsort.cpp)
+add_executable(asdSort main.cpp sort.h qsort.cpp countsort.cpp decimalRadixSort.cpp)
