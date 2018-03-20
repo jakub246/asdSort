@@ -84,16 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jakub/CLionProjects/asdSort/countsort.cpp">
+		<Unit filename="/home/jakub/CLionProjects/asdSort/bucketSort.cpp">
 			<Option target="asdSort"/>
 		</Unit>
-		<Unit filename="/home/jakub/CLionProjects/asdSort/decimalRadixSort.cpp">
+		<Unit filename="/home/jakub/CLionProjects/asdSort/countsort.cpp">
 			<Option target="asdSort"/>
 		</Unit>
 		<Unit filename="/home/jakub/CLionProjects/asdSort/main.cpp">
 			<Option target="asdSort"/>
 		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/asdSort/other.cpp">
+			<Option target="asdSort"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/asdSort/other.h">
+			<Option target="asdSort"/>
+		</Unit>
 		<Unit filename="/home/jakub/CLionProjects/asdSort/qsort.cpp">
+			<Option target="asdSort"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/asdSort/radixSort.cpp">
 			<Option target="asdSort"/>
 		</Unit>
 		<Unit filename="/home/jakub/CLionProjects/asdSort/sort.h">

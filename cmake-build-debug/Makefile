@@ -123,6 +123,33 @@ asdSort/fast:
 	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/build
 .PHONY : asdSort/fast
 
+bucketSort.o: bucketSort.cpp.o
+
+.PHONY : bucketSort.o
+
+# target to build an object file
+bucketSort.cpp.o:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/bucketSort.cpp.o
+.PHONY : bucketSort.cpp.o
+
+bucketSort.i: bucketSort.cpp.i
+
+.PHONY : bucketSort.i
+
+# target to preprocess a source file
+bucketSort.cpp.i:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/bucketSort.cpp.i
+.PHONY : bucketSort.cpp.i
+
+bucketSort.s: bucketSort.cpp.s
+
+.PHONY : bucketSort.s
+
+# target to generate assembly for a file
+bucketSort.cpp.s:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/bucketSort.cpp.s
+.PHONY : bucketSort.cpp.s
+
 countsort.o: countsort.cpp.o
 
 .PHONY : countsort.o
@@ -149,33 +176,6 @@ countsort.s: countsort.cpp.s
 countsort.cpp.s:
 	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/countsort.cpp.s
 .PHONY : countsort.cpp.s
-
-decimalRadixSort.o: decimalRadixSort.cpp.o
-
-.PHONY : decimalRadixSort.o
-
-# target to build an object file
-decimalRadixSort.cpp.o:
-	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/decimalRadixSort.cpp.o
-.PHONY : decimalRadixSort.cpp.o
-
-decimalRadixSort.i: decimalRadixSort.cpp.i
-
-.PHONY : decimalRadixSort.i
-
-# target to preprocess a source file
-decimalRadixSort.cpp.i:
-	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/decimalRadixSort.cpp.i
-.PHONY : decimalRadixSort.cpp.i
-
-decimalRadixSort.s: decimalRadixSort.cpp.s
-
-.PHONY : decimalRadixSort.s
-
-# target to generate assembly for a file
-decimalRadixSort.cpp.s:
-	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/decimalRadixSort.cpp.s
-.PHONY : decimalRadixSort.cpp.s
 
 main.o: main.cpp.o
 
@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+other.o: other.cpp.o
+
+.PHONY : other.o
+
+# target to build an object file
+other.cpp.o:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/other.cpp.o
+.PHONY : other.cpp.o
+
+other.i: other.cpp.i
+
+.PHONY : other.i
+
+# target to preprocess a source file
+other.cpp.i:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/other.cpp.i
+.PHONY : other.cpp.i
+
+other.s: other.cpp.s
+
+.PHONY : other.s
+
+# target to generate assembly for a file
+other.cpp.s:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/other.cpp.s
+.PHONY : other.cpp.s
+
 qsort.o: qsort.cpp.o
 
 .PHONY : qsort.o
@@ -231,6 +258,33 @@ qsort.cpp.s:
 	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/qsort.cpp.s
 .PHONY : qsort.cpp.s
 
+radixSort.o: radixSort.cpp.o
+
+.PHONY : radixSort.o
+
+# target to build an object file
+radixSort.cpp.o:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/radixSort.cpp.o
+.PHONY : radixSort.cpp.o
+
+radixSort.i: radixSort.cpp.i
+
+.PHONY : radixSort.i
+
+# target to preprocess a source file
+radixSort.cpp.i:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/radixSort.cpp.i
+.PHONY : radixSort.cpp.i
+
+radixSort.s: radixSort.cpp.s
+
+.PHONY : radixSort.s
+
+# target to generate assembly for a file
+radixSort.cpp.s:
+	$(MAKE) -f CMakeFiles/asdSort.dir/build.make CMakeFiles/asdSort.dir/radixSort.cpp.s
+.PHONY : radixSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,18 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... asdSort"
+	@echo "... bucketSort.o"
+	@echo "... bucketSort.i"
+	@echo "... bucketSort.s"
 	@echo "... countsort.o"
 	@echo "... countsort.i"
 	@echo "... countsort.s"
-	@echo "... decimalRadixSort.o"
-	@echo "... decimalRadixSort.i"
-	@echo "... decimalRadixSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... other.o"
+	@echo "... other.i"
+	@echo "... other.s"
 	@echo "... qsort.o"
 	@echo "... qsort.i"
 	@echo "... qsort.s"
+	@echo "... radixSort.o"
+	@echo "... radixSort.i"
+	@echo "... radixSort.s"
 .PHONY : help
 
 

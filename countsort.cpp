@@ -3,6 +3,9 @@
 //
 
 #include "sort.h"
+#include <cstdlib>
+#include <ctime>
+using namespace std;
 
 void countSort(int A[], int n, int k)
 {

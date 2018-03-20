@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/jakub/CLionProjects/asdSort/countsort.cpp
-sort.h
-/home/jakub/CLionProjects/asdSort/sort.h
-
-/home/jakub/CLionProjects/asdSort/decimalRadixSort.cpp
-sort.h
-/home/jakub/CLionProjects/asdSort/sort.h
-
-/home/jakub/CLionProjects/asdSort/main.cpp
+/home/jakub/CLionProjects/asdSort/bucketSort.cpp
 iostream
 -
+sort.h
+/home/jakub/CLionProjects/asdSort/sort.h
+list
+/home/jakub/CLionProjects/asdSort/list
+
+/home/jakub/CLionProjects/asdSort/countsort.cpp
 sort.h
 /home/jakub/CLionProjects/asdSort/sort.h
 cstdlib
@@ -24,11 +22,33 @@ cstdlib
 ctime
 -
 
+/home/jakub/CLionProjects/asdSort/main.cpp
+iostream
+-
+sort.h
+/home/jakub/CLionProjects/asdSort/sort.h
+other.h
+/home/jakub/CLionProjects/asdSort/other.h
+
+/home/jakub/CLionProjects/asdSort/other.cpp
+other.h
+/home/jakub/CLionProjects/asdSort/other.h
+ctime
+-
+cstdlib
+-
+
+/home/jakub/CLionProjects/asdSort/other.h
+
 /home/jakub/CLionProjects/asdSort/qsort.cpp
 sort.h
 /home/jakub/CLionProjects/asdSort/sort.h
 algorithm
 -
+
+/home/jakub/CLionProjects/asdSort/radixSort.cpp
+sort.h
+/home/jakub/CLionProjects/asdSort/sort.h
 
 /home/jakub/CLionProjects/asdSort/sort.h
 

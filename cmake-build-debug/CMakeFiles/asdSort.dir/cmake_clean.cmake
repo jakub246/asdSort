@@ -2,7 +2,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/asdSort.dir/main.cpp.o"
   "CMakeFiles/asdSort.dir/qsort.cpp.o"
   "CMakeFiles/asdSort.dir/countsort.cpp.o"
-  "CMakeFiles/asdSort.dir/decimalRadixSort.cpp.o"
+  "CMakeFiles/asdSort.dir/radixSort.cpp.o"
+  "CMakeFiles/asdSort.dir/bucketSort.cpp.o"
+  "CMakeFiles/asdSort.dir/other.cpp.o"
   "asdSort.pdb"
   "asdSort"
 )
